@@ -1,9 +1,9 @@
 <scheme name="GitHub Dark" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2024-03-27T23:39:10</property>
+    <property name="created">2024-03-28T11:57:14</property>
     <property name="ide">PhpStorm</property>
     <property name="ideVersion">2023.3.6.0.0</property>
-    <property name="modified">2024-03-27T23:39:31</property>
+    <property name="modified">2024-03-28T11:57:29</property>
   </metaInfo>
   <colors>
     <option name="ADDED_LINES_COLOR" value="85e89d" />
@@ -1633,20 +1633,25 @@
         <option name="FOREGROUND" value="85e89d" />
       </value>
     </option>
-    <option name="PHP_ALIAS_REFERENCE">
-      <value>
-        <option name="FOREGROUND" value="ffab70" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
     <option name="PHP_CONSTANT">
       <value>
         <option name="FOREGROUND" value="ffa657" />
       </value>
     </option>
+    <option name="PHP_DOC_IDENTIFIER">
+      <value>
+        <option name="FOREGROUND" value="a9a9a9" />
+        <option name="BACKGROUND" value="d1117" />
+      </value>
+    </option>
+    <option name="PHP_DOC_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="9eaf97" />
+      </value>
+    </option>
     <option name="PHP_DOC_TAG">
       <value>
-        <option name="FOREGROUND" value="cc9678" />
+        <option name="FOREGROUND" value="8ba183" />
         <option name="FONT_TYPE" value="3" />
       </value>
     </option>
@@ -1665,8 +1670,18 @@
         <option name="FOREGROUND" value="ffa657" />
       </value>
     </option>
+    <option name="PHP_PRIMITIVE_TYPE_HINT">
+      <value>
+        <option name="FOREGROUND" value="ea8fdd" />
+      </value>
+    </option>
     <option name="PHP_SCRIPTING_BACKGROUND">
       <value />
+    </option>
+    <option name="PHP_THIS_VAR">
+      <value>
+        <option name="FOREGROUND" value="6da99e" />
+      </value>
     </option>
     <option name="PROPERTIES.INVALID_STRING_ESCAPE">
       <value>
